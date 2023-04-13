@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Número Primo</title>
+</head>
+<body class="body">
+  <div class="container">
+      <h3 class="titulo">Número Primo</h3><hr>
+      <label class="label"> Digite um número inteiro: </label>
+      <input class="input" placeholder="Digite um número com até 6 dígitos" id="num" type="number" min="1" max="1000" /><br>
+      <div class="box-button">
+        <button class="button-testar" onclick="testarNumPrimo()">Testar</button>
+        <a class="limpar" onclick="Limpar()">↻</a>
+
+      </div>
+      
+      <p class="resultado" id="resposta"></p>    
+      <span class="detalhe">Números primos são aqueles divisíveis<br> apenas por 1 e por eles mesmos.</span>
+      <a class="button-voltar" href="./pagPrincipal.html">ᐊ</a>
+  </div>
+</body>
+<script src="./js/script.js"></script>
+<script src="./js/primo.js"></script>
+</html>

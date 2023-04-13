@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body class="body">
+  <div class="container">
+    <h3 class="titulo">Somatório</h3><hr>
+    <label class="label">Digite números inteiros <br> separados por vírgula: </label>
+    <input class="input" placeholder=" ex: 10,2,3,4,5..." id="numbers" type="text" /><br>
+    <div class="box-button">
+      <button class="button-testar" onclick="somatorio()">Somar</button>
+      <a class="limpar" onclick="Limpar()">↻</a>
+    </div>
+    <p class="resultado" id="respostaSoma"></p> 
+    <span class="detalhe">10,2 ⇀ 10+2 = 12</span>
+    <a class="button-voltar" href="./pagPrincipal.html">ᐊ</a>
+  </div>
+</body>
+<script src="./js/script.js"></script>
+<script src="./js/somatorio.js"></script>
+</html>
